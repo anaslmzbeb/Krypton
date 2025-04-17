@@ -2,3 +2,4 @@ Pysocks
 icmplib
 requests
 cloudscraper
+scapy
