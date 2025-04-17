@@ -1,2 +1,3 @@
 Pysocks
 icmplib
+requests
