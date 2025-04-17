@@ -1,3 +1,4 @@
 Pysocks
 icmplib
 requests
+cloudscraper
